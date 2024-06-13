@@ -54,5 +54,5 @@ input{
 input:focus{
     background-color: transparent;
     outline: transparent;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid hsl(327,90%,28%);
 }
