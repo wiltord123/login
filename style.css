@@ -56,3 +56,22 @@ input:focus{
     outline: transparent;
     border-bottom: 2px solid hsl(327,90%,28%);
 }
+
+input::placeholder{
+    color: transparent;
+}
+
+label{
+    color: #757575;
+    position: relative;
+    left: 1.2rem;
+    top: -1.3em;
+    cursor: auto;
+    transition: 0.3s ease all;
+}
+
+input:focus~label,input:not(:placeholder-shown)~label{
+    top: -3em;
+    color: hsl(327,90%,28%);
+    font-size: 15px;
+}
