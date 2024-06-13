@@ -50,3 +50,7 @@ input{
     position: absolute;
     color: black;
 }
+
+input:focus{
+    
+}
