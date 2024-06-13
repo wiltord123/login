@@ -54,4 +54,5 @@ input{
 input:focus{
     background-color: transparent;
     outline: transparent;
+    border-bottom: 2px;
 }
