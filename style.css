@@ -43,5 +43,5 @@ input{
 
 .input-group{
     padding: 1% 0;
-    position: static;
+    position: relative;
 }
