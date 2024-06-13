@@ -47,5 +47,5 @@ input{
 }
 
 .input-group i{
-    
+    position: static;
 }
